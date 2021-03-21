@@ -89,6 +89,51 @@ body {
 	border-radius: 10px;
 }
 
+.for_carousel {
+	display: flex;
+}
+
+.wrapper {
+	width: 100%;
+	align-items: center;
+	/* min-height: 100vh; */
+	background: #000000;
+}
+
+.wrapper .carousel {
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 30px;
+}
+
+.carousel .card{
+	/* background-color: red; */
+	/* line-height: 250px; */
+	color: white;
+	font-size: 90px;
+	margin: 20px 0;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.owl-dots {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.owl-dot {
+	height: 15px;
+	width: 45px;
+	border-radius: 25px;
+	cursor: pointer;
+	outline: none;
+	border: 2px solid red !important;
+	margin: 0 10px 10px 0;
+}
+
+.owl-dot:hover, .owl-dot.active{
+	background: red !important;
+}
+
 footer {
 	color: white;
 	text-align: center;

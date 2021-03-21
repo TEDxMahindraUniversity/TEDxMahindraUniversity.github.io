@@ -7,11 +7,13 @@
 		
 		<!-- Default stuff -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 		<!-- Custom stuff -->
 		
@@ -47,15 +49,46 @@
 		<div class="container d-flex h-100">
 			<div class="row justify-content-center align-self-center">
 				<!-- Insert TEDxMU logo here -->
+				<p>Something cool coming up!</p>
 			</div>
 		</div>
 
-		<div class="container d-flex h-100">
-			<div class="row justify-content-center align-self-center">
-				<!-- More stufff -->
+		<div class="for_carousel">
+			<div class="wrapper">
+				<div class="carousel owl-carousel">
+					<img src="assets/images/Slider/Slider-1.JPG" class="card"/>
+					<img src="assets/images/Slider/Slider-2.JPG" class="card"/>
+					<img src="assets/images/Slider/Slider-3.JPG" class="card"/>
+					<img src="assets/images/Slider/Slider-4.JPG" class="card"/>
+					<img src="assets/images/Slider/Slider-5.JPG" class="card"/>
+					<img src="assets/images/Slider/Slider-6.JPG" class="card"/>
+					<img src="assets/images/Slider/Slider-7.JPG" class="card"/>
+				</div>
 			</div>
 		</div>
 		
+		<script>$(".carousel").owlCarousel({
+			margin: 10,
+			loop: true,
+			autoplay: true,
+			autoplayTimeout: 2000,
+			autoplayHoverPause: true,
+			responsive: {
+				0: {
+					items: 1,
+					nav: false
+				},
+				500: {
+					items: 2,
+					nav: false
+				},
+				1000: {
+					items: 4,
+					nav: false
+				}
+			}
+		});
+		</script>
 
 		<!-- TODO: Add other socials -->
 		<footer class="row">
