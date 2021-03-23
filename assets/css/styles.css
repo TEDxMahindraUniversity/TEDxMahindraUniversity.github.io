@@ -33,6 +33,7 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 1;
+	margin-bottom: 0;
 }
 
 .name-title {
@@ -82,6 +83,26 @@ body {
 	width: 100%;
 	background-color: white;
 	border-radius: 10px;
+}
+
+.background {
+	background-image: url(https://tedxmahindrauniversity.github.io/assets/images/Modded/Slider-7-blurr.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.blur {
+	/* background: rgba(255, 255, 255, 0.2); */
+	backdrop-filter: blur(500px);
+	height: 100vh;
+	width: 100%;
+}
+
+.blur p {
+	color: #ffffff;
 }
 
 .for_carousel {
