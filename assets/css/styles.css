@@ -18,7 +18,7 @@ body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	background-color: #000000;
+	background-color: #0c0c0c;
 }
 
 .row {
@@ -220,6 +220,20 @@ footer p {
 	.navbar-links.active {
 		display: flex;
 	}
+}
+/*body fonts*/
+
+.sans {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.serif {
+	font-family: "Georgia",serif;
+}
+
+.mono {
+	font-family: "Courier New",sans-serif;
+}
 
 	.name-title img {
 		width: 255px;
