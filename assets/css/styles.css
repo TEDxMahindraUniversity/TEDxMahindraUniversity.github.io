@@ -186,7 +186,7 @@ footer p {
 
 /* For navbar*/
 
-@media (max-width: 700px) {
+@media (max-width: 740px) {
 	.toggle-button {
 		display: flex;
 	}
@@ -219,5 +219,10 @@ footer p {
 
 	.navbar-links.active {
 		display: flex;
+	}
+
+	.name-title img {
+		width: 255px;
+		height: 41px;;
 	}
 }
