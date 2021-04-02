@@ -21,11 +21,7 @@ body {
 	background-color: #0c0c0c;
 }
 
-.row {
-	width: 100%;
-}
-
-.navbar {
+.navibar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -34,13 +30,16 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 1;
-	margin-bottom: 0;
 }
 
 .name-title {
 	font-size: 1.5rem;
 	margin: .5rem;
-	padding-left: 20px;
+	padding-left: 100px;
+}
+
+.navbar-links {
+	padding-right: 100px;
 }
 
 .navbar-links ul {
@@ -138,7 +137,7 @@ body {
 }
 
 .carousel .card{
-	/* background-color: red; */
+	/* background-color: #e62b1e; */
 	/* line-height: 250px; */
 	color: white;
 	font-size: 90px;
@@ -153,16 +152,16 @@ body {
 
 .owl-dot {
 	height: 15px;
-	width: 45px;
+	width: 15px;
 	border-radius: 25px;
 	cursor: pointer;
 	outline: none;
-	border: 2px solid red !important;
+	border: 2px solid #e62b1e !important;
 	margin: 0 10px 10px 0;
 }
 
 .owl-dot:hover, .owl-dot.active{
-	background: red !important;
+	background: #e62b1e !important;
 }
 
 p, h1, h2, h3 {
@@ -182,7 +181,8 @@ p {
 
 .speaker-div {
 	display: flex;
-	padding: 15px;;
+	padding: 15px;
+	margin-bottom: 20px;
 }
 
 .speaker_header {
@@ -197,8 +197,8 @@ p {
 footer {
 	color: white;
 	text-align: center;
-	background-color: black;
-	margin-top: auto;
+	background-color: #181818;
+	/* margin-top: 30px; */
 	margin-right: 0;
 }
 
@@ -240,9 +240,13 @@ footer p {
 		width: 100%;
 	}
 
-	.navbar {
+	.navibar {
 		flex-direction: column;
 		align-items: flex-start;
+	}
+
+	.name-title {
+		padding-left: 0;
 	}
 	
 	.navbar-links ul {
