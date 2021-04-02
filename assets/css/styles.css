@@ -242,9 +242,16 @@ footer p {
 
 h2{
 		font-family: 'Cuprum', sans-serif !important;
-	}
+		}
 
 h4{
 		font-family: 'Sarabun', sans-serif !important;
 	}
 
+.red{
+	color: red;
+}
+
+.white{
+	color: white;
+}
