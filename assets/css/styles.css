@@ -165,18 +165,22 @@ body {
 	background: red !important;
 }
 
-p, h1, h3 {
+p, h1, h2, h3 {
 	color: #ffffff;
 }
 
-.dp {
+p {
+	text-align: justify;
+}
+
+.speaker-div img {
 	border-radius: 50%;
 	width: 210px;
 	height: 210px;
 	margin-right: 70px;
 }
 
-.row-right {
+.speaker-div {
 	display: flex;
 	padding: 15px;;
 }
@@ -270,6 +274,22 @@ footer p {
 
 	.alt_f4_text {
 		font-size: medium;
+	}
+
+	.speaker-div {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.speaker-div img {
+		margin: 0;
+		width: 150px;
+		height: 150px;
+	}
+
+	.speaker-div h3{
+		text-align: center;
 	}
 }
 /*body fonts*/
