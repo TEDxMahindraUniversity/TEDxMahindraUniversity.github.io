@@ -294,6 +294,10 @@ footer p {
 	.speaker-div h3{
 		text-align: center;
 	}
+
+	p {
+		text-align-last: center;
+	}
 }
 /*body fonts*/
 
