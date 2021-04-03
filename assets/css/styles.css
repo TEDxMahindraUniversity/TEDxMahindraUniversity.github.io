@@ -279,6 +279,10 @@ footer p {
 		font-size: medium;
 	}
 
+	h1, h2, h3 {
+		text-align: center;
+	}
+
 	.speaker-div {
 		flex-direction: column;
 		align-items: center;
@@ -298,25 +302,4 @@ footer p {
 	p {
 		text-align-last: center;
 	}
-}
-/*body fonts*/
-
-.sans {
-	font-family: "Trebuchet MS", sans-serif;
-}
-
-.serif {
-	font-family: "Georgia",serif;
-}
-
-.mono {
-	font-family: "Courier New",sans-serif;
-}
-
-h2{
-	font-family: 'Cuprum', sans-serif !important;
-}
-
-h4{
-    font-family: 'Sarabun', sans-serif !important;
 }
