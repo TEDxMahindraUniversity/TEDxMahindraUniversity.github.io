@@ -1,11 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
-/* TODO: Change font */
-
-
 * {
 	box-sizing: border-box;
-	/* font-family: 'Ubuntu', sans-serif; */
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 html {
@@ -58,7 +53,6 @@ body {
 	display: block;
 	font-size: 16px;
 	font-weight: 800;
-	text-transform: uppercase;
 	color: white;
 }
 
@@ -248,6 +242,11 @@ footer p {
 	.name-title {
 		padding-left: 0;
 	}
+
+	.name-title img {
+		width: 255px;
+		height: 41px;;
+	}
 	
 	.navbar-links ul {
 		width: 100%;
@@ -308,11 +307,6 @@ footer p {
 
 .mono {
 	font-family: "Courier New",sans-serif;
-}
-
-.name-title img {
-	width: 255px;
-	height: 41px;;
 }
 
 h2{
