@@ -2,6 +2,7 @@ body
 {
     margin-top: 20px;
     background-color: black;
+    font-family: Poppins;
 }
 .userjar
 {
@@ -13,4 +14,10 @@ body
 {
     text-align: right;
     color: cyan;
+}
+
+.neutral
+{
+    text-align: center;
+    color: white
 }
