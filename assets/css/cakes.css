@@ -1,0 +1,16 @@
+body
+{
+    margin-top: 20px;
+    background-color: black;
+}
+.userjar
+{
+    text-align: left;
+    color: pink;
+}
+
+.userpop
+{
+    text-align: right;
+    color: cyan;
+}
