@@ -1,0 +1,25 @@
+body
+{
+    margin-top: 20px;
+    background-color: black;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+.userjar
+{
+    text-align: left;
+    color: pink;
+}
+
+.userpop
+{
+    text-align: right;
+    color: cyan;
+}
+
+.neutral
+{
+    text-align: center;
+    color: white
+}
