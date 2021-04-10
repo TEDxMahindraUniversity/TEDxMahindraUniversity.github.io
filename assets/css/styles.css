@@ -121,19 +121,19 @@ body {
 	margin-bottom: 40px;
 }
 
-.livestream-button {
+.register-button {
 	margin: 40px;
 	text-align: center;
 }
 
-.livestream-button a {
+.register-button a {
 	background-color: #e62b1e;
 	padding: 20px;
 	font-weight: bolder;
 	color: #ffffff;
 }
 
-.livestream-button a:hover {
+.register-button a:hover {
 	background-color: #b80600;
 	text-decoration: none;
 }
