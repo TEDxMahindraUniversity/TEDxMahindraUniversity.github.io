@@ -7,5 +7,5 @@ document.addEventListener('keydown', (e) => {
 });
   
   function activate() {
-    window.open('cake/index.html', '_blank');
+    window.open('cake/', '_blank');
   }
