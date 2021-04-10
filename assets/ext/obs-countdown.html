@@ -1,0 +1,67 @@
+
+<!DOCTYPE HTML>
+<html>
+<!-- http://www.gaglioni.net/countdown/?i=1 -->
+<head>
+<link rel="shortcut icon" href="stopwatch-clipart-short-time-19.png" type="image/x-icon">
+<style>
+   html,body{
+      margin:0;
+      padding:0;
+      height:100%;
+      border:none;
+      font-size: 400%;
+      color: silver;
+      background-color:transparent;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      overflow: hidden; /* Hide scrollbars */
+      
+        color: white;background-color: transparent;    }
+    
+    table{
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 0;
+    }
+    tr,td{
+        text-align: center;
+        vertical-align: center;
+    }
+</style>
+<script>
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    var tynmer = 0;
+    var snds = "";
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;       
+
+        if (timer == 0) {
+            timer = 0;         
+        } else {--timer;}
+        
+    }, 1000);
+}
+
+window.onload = function () {
+    var TimerMinutes = 60 * 15,
+        display = document.querySelector('#time');
+    startTimer(TimerMinutes, display);
+};
+</script>
+<body>
+<table>
+                <tr><td>
+        <span id="time">--:--</span></b>
+        </td></tr>
+</table>
+</body>
+</html>
